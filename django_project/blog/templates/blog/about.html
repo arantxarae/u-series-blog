@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+{% block content %}
+          <div class="content-section">
+               <form method="POST">
+               {% csrf_token %}
+                    <fieldset class="form-group">
+                    <legend class="border-bottom mb-2">About Page</legend>
+                    <h6>University series content. Share your thoughts with us!</h6>
+                    </fieldset>
+               </form>
+          </div>
+{% endblock content %}
