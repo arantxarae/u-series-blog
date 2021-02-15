@@ -25,7 +25,7 @@ SECRET_KEY = ')84(+aa6_rpl6$fij_+f=oy1@c-^73r!xn^=43x!esibr60u2r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aramazo.pythonanywhere.com']
 
 
 # Application definition
